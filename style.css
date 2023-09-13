@@ -1,0 +1,75 @@
+.overskrift{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-image: url("logo.jpg");
+    color: darkred;
+    
+}
+
+
+.monster_hunter{
+    min-height:100vh ; 
+    background-image: url("monster_hunter.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.final_fantasy{
+    height: 600px;
+    background-image: url("final_fantasy.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.legend_of_zelda{
+    height: 600px;
+    background-image: url("legend_of_zelda.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.informasion{
+    align-content: center;
+}
+
+iframe{
+    display:inline-block;
+    vertical-align: bottom;
+}
