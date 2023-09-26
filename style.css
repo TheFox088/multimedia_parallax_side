@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 .overskrift{
     background-attachment: fixed;
     background-position: center;
@@ -10,7 +13,7 @@
     align-items: center;
     font-size: 50px;
     background-image: url("logo.jpg");
-    color: darkred;
+    color: goldenrod;
     
 }
 
@@ -28,6 +31,10 @@
     justify-content: center;
     align-items: center;
 }
+.monster{
+    position: center;
+    margin: 0px auto;
+}
 
 .final_fantasy{
     height: 600px;
@@ -41,6 +48,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.fantasy{
+    position: center;
+    margin: 0px auto;
+}
+
+.fantasy_two{
+    position: center;
+    margin: 0px auto;
 }
 
 .legend_of_zelda{
@@ -57,6 +73,10 @@
     align-items: center;
 }
 
+.zelda{
+    position: center;
+    margin: 0px auto;
+}
 .content{
     display: flex;
     flex-direction: column;
@@ -72,4 +92,6 @@
 iframe{
     display:inline-block;
     vertical-align: bottom;
+    
+    
 }
